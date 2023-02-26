@@ -14,9 +14,9 @@ Our project hopes to explore the relationship between a multitude of factors wit
 
 ### Project Directory
 
-- [Milestone 1 Memo](https://www.overleaf.com/read/hvfwqpmshnnk)
-- [Milestone 2 Data Cleaning & Merging](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/00_data_cleaning_merging.ipynb)
-- [Milestone 2 Initial Data Analysis](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/01_data_exploration.ipynb)
+- [Memo](https://www.overleaf.com/read/hvfwqpmshnnk)
+- [Data Cleaning & Merging](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/00_data_cleaning_merging.ipynb)
+- [Initial Data Analysis](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/01_data_exploration.ipynb)
 - [Output Figures](https://github.com/alexcraig043/qss-20-final-project/tree/main/src/output/figures)
 
 ### Project Notebook Scripts
