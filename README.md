@@ -27,7 +27,7 @@ Our project hopes to explore the relationship between a multitude of factors wit
 
     This notebook cleans and merges all the necessary datasets that are needed for the analysis of Massachusetts public schools. All the datasets are merged based on the school and district names, and lowercase versions of the names are created for consistency. This cleaning process prepares the data for the main analysis and makes it easier to merge the datasets based on the school and district names.
 
-  - #### Imports:
+  - #### Inputs:
 
     - NERDS Data: The NERDS contains revenue and expenditure data for Massachusetts school districts and individual schools for the year 2019.
     - MCAS Elementary and High School Data: MCAS (Massachusetts Comprehensive Assessment System) data is the standardized test used in Massachusetts for all grade levels through high school. Separate datasets are used for elementary and high school.
@@ -59,7 +59,7 @@ Our project hopes to explore the relationship between a multitude of factors wit
 
     After the scatter plot section, several heat maps are generated to display the cross correlation between different features.
 
-  - #### Imports:
+  - #### Inputs:
 
     - `master_df`: The master dataframe that contains all the merged datasets. Each row is an individual school in Massachusetts.
 
