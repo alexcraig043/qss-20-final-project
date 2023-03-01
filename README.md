@@ -56,6 +56,10 @@ Our project hopes to explore the relationship between a multitude of factors wit
     - First Language Not English % of School
     - State Funding Per Pupil
     - Federal Funding Per Pupil
+    - Total Funding Per Pupil
+    - Total State Funding
+    - Total Federal Funding
+    - Total Funding
 
     After the scatter plot section, several heat maps are generated to display the cross correlation between different features.
 
