@@ -58,6 +58,8 @@ Our project hopes to explore the relationship between a multitude of factors wit
     - Total State Funding
     - Total Federal Funding
     - Total Funding
+    - Total Enrollment
+    - Graduation Rate
 
     After the scatter plot section, several heat maps are generated to display the cross correlation between different features.
 
@@ -70,4 +72,15 @@ Our project hopes to explore the relationship between a multitude of factors wit
     - Scatter Plots: Scatter plots of different features against the `avg_score` column.
     - Heat Maps: Heat maps of the cross correlation between different features.
 
-    
+- [02_cluster_analysis.ipynb](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/02_cluster_analysis.ipynb)
+
+- [03_model_prediction.ipynb](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/03_model_prediction.ipynb)
+  - #### Functionality:
+    This notebook uses a Lasso and Ridge to try to accurate predict MCAS scores based on some of the features in the dataset. The features include financial, demographic, and enrollment data for each school. 
+
+  - #### Inputs:
+    - `master_df`: The master dataframe that contains all the merged datasets. Each row is an individual school in Massachusetts.
+
+  - #### Outputs:
+    - `lasso_model`: The Lasso model that was trained on the data.
+    - `ridge_model`: The Ridge model that was trained on the data.
