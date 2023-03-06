@@ -69,3 +69,5 @@ Our project hopes to explore the relationship between a multitude of factors wit
 
     - Scatter Plots: Scatter plots of different features against the `avg_score` column.
     - Heat Maps: Heat maps of the cross correlation between different features.
+
+    
