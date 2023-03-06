@@ -73,6 +73,14 @@ Our project hopes to explore the relationship between a multitude of factors wit
     - Heat Maps: Heat maps of the cross correlation between different features.
 
 - [02_cluster_analysis.ipynb](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/02_cluster_analysis.ipynb)
+  - #### Functionality:
+    This notebook uses the KMeans clustering function from the sklearn.cluster library to identify "profiles" within the school dataset. We apply 2 - 6 clusters for a generalized dataset that includes financial, demographic, and enrollment data for each school. Next, we filter the dataset for high schools, and apply the KMeans clustering algorithm. Finally, we apply clustering to high income, high performing schools; high income, low performing schools; low income, low performing schools; and low income, high perfroming schools. To accomplish this, we write a generalized KMeans function called `kmeans_func`, which takes in two parameters: number of clusters and a dataframe. The function standardizes the data, applies the clustering algorithm, and labels each school in the dataframe to a cluster.
+
+  - #### Inputs:
+    - `master_df`: The master dataframe that contains all the merged datasets. Each row is an individual school in Massachusetts.
+
+  - #### Outputs:
+    - `KMeans Clusters`: The KMeans clustering algorithm that was applied on the data.
 
 - [03_model_prediction.ipynb](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/03_model_prediction.ipynb)
   - #### Functionality:
