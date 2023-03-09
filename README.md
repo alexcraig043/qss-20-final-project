@@ -84,7 +84,7 @@ Our project hopes to explore the relationship between a multitude of factors wit
 
 - [03_model_prediction.ipynb](https://github.com/alexcraig043/qss-20-final-project/blob/main/src/code/03_model_prediction.ipynb)
   - #### Functionality:
-    This notebook uses a Lasso and Ridge to try to accurate predict MCAS scores based on some of the features in the dataset. The features include financial, demographic, and enrollment data for each school. 
+    This notebook uses a Lasso and Ridge to try to accurate predict MCAS scores based on some of the features in the dataset. The features include financial, demographic, and enrollment data for each school. Once the two models are trained, their performance and metrics are compared. We find that they have similar performance and residual values, but their feature coefficients differ. 
 
   - #### Inputs:
     - `master_df`: The master dataframe that contains all the merged datasets. Each row is an individual school in Massachusetts.
